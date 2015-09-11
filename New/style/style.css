@@ -79,6 +79,7 @@ div#shapes .square {
     shape-outside: circle(50%);
     width: 100px;
     height: 100px;
+    
     margin-left: 40px;
 }
 
@@ -93,11 +94,20 @@ div#shapes .rectangle {
     margin-left: 12px;
 }
  
- /*CIRCLE    
+/* CIRCLE */   
 div#shapes .circle {
     background-color: #E01931;
 }
 
+.thecircle {
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    
+    margin-left: 40px;
+}
 
 
  
