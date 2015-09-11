@@ -14,6 +14,16 @@ div#container {
     background-color: darkgray;
 }
 
-h2 {
+/*Title*/
+div#title {
+    text-align: center;
+}
+div#title h2 {
     color: #E01931;
+    text-align: center;
+}
+
+/*Shapes*/
+div#shapes {
+    background-color: #000;
 }
