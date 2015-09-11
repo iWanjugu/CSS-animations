@@ -35,28 +35,43 @@ div#shapes {
     width: 24%;
     margin: 3px;
     float: left;
- 
 }
+
+.nametriangle, .namesquare, .namerectanlge, .namecircle 
+{
+    text-align: center;
+    margin-top: 0;
+}
+
+.descriptiontriangle, .descriptionsquare, .descriptionrectangle, .descriptioncircle
+{
+    padding-left: 4px;    
+}
+
+/* TRIANGLE */
 div#shapes .triangle {
     background-color: #71BA51;
-   /* display: inline-block;*/
-    
 }
+
+/* editing inside triangle*/
+.thetriangle {
+    width: 0;
+	height: 0;
+	border-left: 50px solid #71BA51;
+	border-right: 50px solid #71BA51;
+	border-bottom: 100px solid #fff;
+    
+    margin-left: 40px;
+    margin-top: 5px;
+    margin-bottom:0;
+    
+    background-color: #fff;
+}
+
+/* SQUARE */
 
 div#shapes .square {
     background-color:#3D8EB9;
-    
-}
-
-div#shapes .rectangle {
-    background-color: #FEC606;
-    
-}
-
-div#shapes .circle {
-    background-color: #E01931;
-    
-  
 }
 
 /* editing inside square*/
@@ -72,13 +87,21 @@ div#shapes .circle {
     background-color: #fff;
 }
 
-.namesquare {
-    text-align: center;
-    margin-top: 0;
+
+
+
+
+div#shapes .rectangle {
+    background-color: #FEC606;
+    
 }
 
-.descriptionsquare {
-    padding-left: 4px;    
+div#shapes .circle {
+    background-color: #E01931;
+    
+  
 }
+
+
 
  
