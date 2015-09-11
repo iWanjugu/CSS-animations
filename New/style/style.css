@@ -14,7 +14,7 @@ div#container {
     background-color: darkgray;
 }
 
-/*Title*/
+/* 1. Title*/
 div#title {
     text-align: center;
 }
@@ -23,11 +23,12 @@ div#title h2 {
     text-align: center;
 }
 
-/*Shapes*/
+/*2. Shapes*/
 div#shapes {
     background-color: #000;
     width: 100%;
     height: 250px;
+    padding-left: 20px;
 }
 
 .triangle, .square, .rectangle, .circle{
@@ -45,7 +46,8 @@ div#shapes {
 
 .descriptiontriangle, .descriptionsquare, .descriptionrectangle, .descriptioncircle
 {
-    padding-left: 4px;    
+    padding-left: 4px; 
+    text-align: center;
 }
 
 .thetrianlge, .thesquare, .therectangle, .thecircle {
@@ -55,7 +57,7 @@ div#shapes {
 }
 
 
-/* TRIANGLE */
+/* 3.1. TRIANGLE */
 div#shapes .triangle {
     background-color: #71BA51;
 }
@@ -66,10 +68,10 @@ div#shapes .triangle {
 	border-left: 50px solid #71BA51;
 	border-right: 50px solid #71BA51;
 	border-bottom: 100px solid #fff;
-    margin-left: 40px;
+    margin-left: 37%;
 }
 
-/* SQUARE */
+/* 3.2. SQUARE */
 
 div#shapes .square {
     background-color:#3D8EB9;
@@ -80,10 +82,10 @@ div#shapes .square {
     width: 100px;
     height: 100px;
     
-    margin-left: 40px;
+    margin-left: 37%;
 }
 
-/* RECTANLGE */
+/* 3.3. RECTANLGE */
 div#shapes .rectangle {
     background-color: #FEC606;
 }
@@ -91,10 +93,11 @@ div#shapes .rectangle {
 .therectangle {
     width: 150px;
     height: 100px;
-    margin-left: 12px;
+    margin-left: 30%;
+    
 }
  
-/* CIRCLE */   
+/* 3.4. CIRCLE */   
 div#shapes .circle {
     background-color: #E01931;
 }
@@ -106,8 +109,49 @@ div#shapes .circle {
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
     
-    margin-left: 40px;
+    margin-left: 37%;
 }
 
 
+/* 3. End */
+
+.end {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 300px;
+}
+
+.ct1, .ct2, .ct3 {
+    height: 250px;
+    width: 250px;
+    border-radius: 125px;
+    
+    display: inline-block;    
+    margin-top: 25px;
+}
+
+.ct1 h3, .ct2 h3, .ct3 h3 {
+    font-family: 'Poiret One';
+}
+
+.ct1 p, .ct2 p, .ct3 p {
+    font-size: .8em;
+}
+
+/* margins */
+.ct1 {
+    margin-left: 50px;
+    margin-right:25px;
+}
+
+.ct2 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.ct3 {
+    margin-left: 25px;
+    margin-right: 50px;
+}
  
