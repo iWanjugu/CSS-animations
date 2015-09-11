@@ -1,3 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px|Open+Sans:400,300,300italic,400italic,600,600italic);
+
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+/*font-family: 'Poiret One', cursive;*/
+
+body {
+    background-color: #fff;
+    font-family: Open Sans;  
+    margin:0;
+    
+}
+
 div#container {
     background-color: darkgray;
+}
+
+h2 {
+    color: #E01931;
 }
