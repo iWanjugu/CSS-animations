@@ -27,20 +27,27 @@ div#title h2 {
 div#shapes {
     background-color: #000;
     width: 25%;
+    height 200px;
+    
 }
 
 div#shapes .triangle {
     background-color: #71BA51;
+    margin: 3px;
+    height: 100%;
 }
 
 div#shapes .square {
-    background-color:cornflowerblue;
+    background-color:#3D8EB9;
+    margin: 3px;
 }
 
 div#shapes .rectangle {
     background-color: #FEC606;
+    margin: 3px;
 }
 
-div#shapes .triangle {
+div#shapes .circle {
     background-color: #E01931;
+    margin: 3px;
 }
