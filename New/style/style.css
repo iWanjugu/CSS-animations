@@ -26,28 +26,36 @@ div#title h2 {
 /*Shapes*/
 div#shapes {
     background-color: #000;
-    width: 25%;
-    height 200px;
-    
+    width: 100%;
+    height: 200px;
 }
 
+.triangle, .square, .rectangle, .circle{
+    height: 97%;
+    width: 24%;
+    margin: 3px;
+    float: left;
+    
+    
+}
 div#shapes .triangle {
     background-color: #71BA51;
-    margin: 3px;
-    height: 100%;
+   /* display: inline-block;*/
+    
 }
 
 div#shapes .square {
     background-color:#3D8EB9;
-    margin: 3px;
+    
 }
 
 div#shapes .rectangle {
     background-color: #FEC606;
-    margin: 3px;
+    
 }
 
 div#shapes .circle {
     background-color: #E01931;
-    margin: 3px;
+    
+  
 }
